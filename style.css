@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: burlywood;
+}
+h1 {
+    margin: 10px;
+}
+nav,a {
+    display:inline-flex;
+    padding: 5px;
+    text-align: center;
+  
+}
+p {
+    margin-left: 5px;
+}
+
+ul, li{
+    margin-left: 5px;
+}
+
+table {
+    margin-right: 5px;
+}

@@ -1,0 +1,33 @@
+body {
+    background-color: burlywood;
+}
+fieldset, label {
+    
+    border-radius: 10px;
+    border-color: black;
+}
+
+label {
+    width: 70px;
+}
+input{
+    margin-right: 5px;
+    border-radius: 4px;
+}
+button{
+    background-color: brown;
+    color: white;
+    display:block;
+    width: 80%;
+    height: 40px;
+    float: inline-start;
+    margin-left: 10%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px white;
+
+}
+button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 1s;
+}
