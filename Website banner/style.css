@@ -1,0 +1,145 @@
+:root{
+    --primary-color:#FFB30E;
+    --secondary-color:#F17228;
+    --light-background:#F5F5F5;
+    --gray-color: #504F4F;
+    --light-gray:#252525;
+    --white-color: #ffffff;
+    --gray-light:#E0E0E0;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar i{
+    color: var(--primary-color);
+    margin-right:6px ;
+}
+
+.navbar, .container {
+    max-width:80vw ;
+    margin: auto;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.navBtns, .navBtns div {
+    display: flex;
+}
+
+.navBtns {
+    gap: 20px;
+    align-items: center;
+}
+
+.navbar span {
+    font-weight: bold;
+    
+}
+
+#loginBtn {
+    border: none;
+    border-radius: 10px;
+    padding: 10px 8px;
+    box-sizing: 0px 2px 10px var(--primary-color);
+}
+.heroSection {
+    background-color: var(--primary-color);
+
+}
+
+.heroSection .container{
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heroSection .rightSide img{
+   margin-top: 150px;
+   filter: drop-shadow(-70px 8px 18px rgba(0, 0, 0, 0.282));
+
+}
+
+
+.heroSection .leftSide h1 {
+    color: var(--white-color);
+    font-size: 60px;
+    
+}
+
+.heroSection .leftSide h2 {
+    color: var(--gray-color);
+    font-size: 14.5px;
+    margin-bottom: 10px;
+}
+
+.heroCard {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--light-background);
+    border-radius: 10px;
+    padding: 20px 10px;
+    gap: 20px 0px;
+    
+}
+
+.heroCard {
+    width: 110%;
+}
+
+.heroCard ul{
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+}
+
+.heroCard li {
+    border-radius: 10px;
+    color: var(--gray-color);
+    padding: 10px 20px;
+}
+
+.heroCard li.active {
+    color: var(--secondary-color);
+    background-color: rgba(225, 179, 14, 0.3);
+}
+
+.heroSearch {
+    border-top: 1px solid var(--gray-light);
+    padding-top: 10px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.heroSearch button{
+    background-color: var(--secondary-color);
+    border: none;
+    border-radius: 10px;
+    padding: 10px 30px;
+    color: var(--white-color);
+}
+
+.heroSearch div {
+    background-color: var(--gray-light);
+    padding: 10px 6px;
+    border-radius: 10px;
+    width: 70%;
+}
+
+.heroSearch i {
+    color: var(--secondary-color);
+}
+
+.heroSearch input {
+    outline: none;
+    background-color: transparent;
+    border: none;
+    width: 300px;
+}
